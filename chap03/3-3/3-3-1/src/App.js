@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
 import "./App.css";
 import StyledPanel from "./StyledPanel";
+import TitlePanel from "./TitlePanel";
 
 function App() {
   return (
-    <StyledPanel>
-      <p>メンバー募集中</p>
-      <p>ようこそ</p>
-    </StyledPanel>
+    <TitlePanel>
+      <p key="title">メンバー募集中</p>
+      <p key="body">wellcome</p>
+    </TitlePanel>
   );
 }
 
