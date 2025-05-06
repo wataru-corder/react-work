@@ -1,10 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
-import ForList from "./ForList";
+import ForNest from "./ForNest";
 import books from "./books";
+import ForFilter from "./ForFilter";
+import ForSort from "./ForSort";
 
 function App() {
-  return <ForList src={books} />;
+  return (
+    <>
+      <ForNest src={books} />
+      <ForFilter src={books} />
+      <ForSort src={books} />
+    </>
+  );
 }
 
 export default App;
